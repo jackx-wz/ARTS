@@ -30,3 +30,15 @@ undefined
 ```
 
 这样使用 my_contract 就可以操作合约了。
+
+
+## The Coin
+代币发行，这里的代币并没有遵守 ERC20 协议内容。只是一个记账的协议。不过已经能够达到目的了。
+
+[Coin.sol](code/blockchain/Coin.sol)
+
+## Crowdfound Your Idea
+众筹是发币的关键，现在很多空气币就靠这个圈钱。这里就要使用众筹的方式，让别人来买上面发的代币。所以众筹协议要做到自动根据买家发的货币进行发币活动。由于要进行自动发币，所以众筹智能合约的账户必须拥有上面发的币。
+
+要让智能合约自动发币，就必须使用一个匿名函数，在每次交易的时候都会调用到。
+[Crowdsale.sol](code/blockchain/Crowdsale.sol)
