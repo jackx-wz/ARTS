@@ -11,4 +11,4 @@
 这个例子是输入一个值，所有人都可以调用相应的方法得到这个值。
 
 code:
-[greeter.sol](ARTS/20180716-20180722/code/blockchain/greeter.sol)
+[greeter.sol](code/blockchain/greeter.sol)
