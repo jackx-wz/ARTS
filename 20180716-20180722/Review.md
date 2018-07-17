@@ -12,3 +12,21 @@
 
 code:
 [greeter.sol](code/blockchain/greeter.sol)
+
+## 调用智能合约
+智能合约的部署官方说已经从 geth 客户端移除了，于是我们直接用了官方钱包 Ethereum Wallet
+
+调用智能合约关键是两点：
+> 智能合约的ABI(Application Binary Interface)
+
+> 智能合约的地址
+
+```
+> var abi=[ { "constant": false, "inputs": [], "name": "kill", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [ { "name": "receiver", "type": "address" }, { "name": "amount", "type": "uint256" } ], "name": "sendCoin", "outputs": [ { "name": "sufficient", "type": "bool" } ], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [ { "name": "", "type": "address" } ], "name": "coinBalanceOf", "outputs": [ { "name": "", "type": "uint256", "value": "0" } ], "payable": false, "stateMutability": "view", "type": "function" }, { "inputs": [ { "name": "supply", "type": "uint256", "index": 0, "typeShort": "uint", "bits": "256", "displayName": "supply", "template": "elements_input_uint", "value": "10000" } ], "payable": false, "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [ { "indexed": false, "name": "sender", "type": "address" }, { "indexed": false, "name": "receiver", "type": "address" }, { "indexed": false, "name": "amount", "type": "uint256" } ], "name": "CoinTransfer", "type": "event" } ]
+undefined
+> var addr = "0x26aF69471eb541Ed660E38D5F87f819950045613"
+undefined
+> my_contract = eth.contract(abi).at(addr)
+```
+
+这样使用 my_contract 就可以操作合约了。
