@@ -11,14 +11,15 @@ arr = [1, 2, 2, 3, 3, 44, 44, 44, 50]
 cnt = len(arr)
 flag = 0
 
-while(1):
-    if flag<(cnt-1) and (arr[flag] == arr[flag+1]):
-        del arr[flag]
-        cnt -= 1
-    elif flag == (cnt-1):
-        break
-    else:
-        flag += 1
+if cnt>0:
+    while(1):
+        if flag<(cnt-1) and (arr[flag] == arr[flag+1]):
+            del arr[flag]
+            cnt -= 1
+        elif flag == (cnt-1):
+            break
+        else:
+            flag += 1
 
 print arr, len(arr)
     
