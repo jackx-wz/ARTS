@@ -15,15 +15,16 @@ class Solution(object):
         :rtype: int
         """
         cnt = len(nums)
-        flag = 0
-        while(1):
-            if flag<(cnt-1) and (nums[flag] == nums[flag+1]):
-                del nums[flag]
-                cnt -= 1
-            elif flag == (cnt-1):
-                break
-            else:
-                flag += 1
+        if cnt > 0:
+            flag = 0
+            while(1):
+                if flag<(cnt-1) and (nums[flag] == nums[flag+1]):
+                    del nums[flag]
+                    cnt -= 1
+                elif flag == (cnt-1):
+                    break
+                else:
+                    flag += 1
 
         return len(nums)
 
