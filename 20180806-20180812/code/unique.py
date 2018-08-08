@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 def get_unique(arr):
-    return sum(list(set(arr)))*2 - sum(arr)
+    return sum(set(arr))*2 - sum(arr)
 
 print get_unique([2,2,1])
 print get_unique([1,0,1])

@@ -4,4 +4,4 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        return 2*sum(list(set(arr))) - sum(arr)
+        return 2*sum(set(arr)) - sum(arr)
