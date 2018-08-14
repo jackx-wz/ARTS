@@ -1,5 +1,7 @@
 # 两个数组的交集
 
+[intersect.class.py](code/intersect.class.py)
+
 给定两个数组，编写一个函数来计算它们的交集。
 
 示例 1:
