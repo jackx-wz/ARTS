@@ -16,3 +16,10 @@
 
 于是分页出现了，这个时候我点选 全部 。发现刚才那个已选择的链接又出现了，bingo！！！
 
+
+# macos brew upgrade 更新 gcc 时间特别长
+网上说可以使用 xcode 但感觉还是不好用，使用 bottle 才真的解决了这个问题
+
+```
+brew install --force-bottle gcc
+```
