@@ -12,7 +12,7 @@ git init
 4、添加需要用到的类到 test/src
 cp -r /neox/neox-backend/app/Library src/
 
-5、初始化 composer,安装提示一直填下去
+5、初始化 composer,安装提示一直填下去 -- 注意依赖包的填写，依赖包也可以之后再写
 composer init
 
 6、这个时候 src 和 composer.json 都准备好了
