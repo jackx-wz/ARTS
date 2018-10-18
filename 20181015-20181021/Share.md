@@ -42,3 +42,86 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 命名空间是绝妙的理念，需要多去使用
 ```
+
+
+另一版别人的翻译，信达雅！！！
+```
+蛇宗三字经
+译者：元创。
+
+Beautiful is better than ugly.
+
+美胜丑
+
+Explicit is better than implicit.
+
+明胜暗
+
+Simple is better than complex.
+
+简胜复
+
+Complex is better than complicated.
+
+复胜杂
+
+Flat is better than nested.
+
+浅胜深
+
+Sparse is better than dense.
+
+疏胜密
+
+Readability counts.
+
+辞达意
+
+Special cases aren't special enough to break the rules.
+
+不逾矩
+
+Although practicality beats purity.
+
+弃至清
+
+Errors should never pass silently.
+
+无阴差
+
+Unless explicitly silenced.
+
+有阳错
+
+In the face of ambiguity, refuse the temptation to guess.
+
+拒疑数
+
+There should be one-- and preferably only one --obvious way to do it.
+
+求完一
+
+Although that way may not be obvious at first unless you're Dutch.
+
+虽不至，向往之
+
+Now is better than never.
+
+敏于行
+
+Although never is often better than right now.
+
+戒莽撞
+
+If the implementation is hard to explain, it's a bad idea.
+
+差难言
+
+If the implementation is easy to explain, it may be a good idea.
+
+好易说
+
+Namespaces are one honking great idea -- let's do more of those!
+
+每师出，多有名
+```
