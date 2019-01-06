@@ -21,3 +21,36 @@
 主要是缺少发现规律的知识，这些都是架构在计算机各种原理之上的，所以想看看个分明必须要学习这些基础原理。
 基础原理学会了，能够深入分析每种技术原理，那么就不是技术学不过来，而是在另一个层次与技术设计者的思维碰撞，在乎的也不是表面的技术，也更能权衡各种技术的应用场景和优缺点。
 ```
+
+
+# 程序员练级攻略（2018）：零基础启蒙
+> 看完之后，发现真的是为了启蒙，里面提到的很多内容其实不需要全部研究一遍，只是培养兴趣。后面的实践目的也是很简单的，对于我现在不适合重头做一遍，不过我python和js都没有系统地学过，感觉这个有必要去过一遍。
+
+
+python：
+> python编程：从入门到实践
+
+js:
+> [MDN JAVASCRIPT教程](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+
+
+# 程序员练级攻略（2018）：正式入门
+> 这里就要开始比较大部头的学习了，中间好多东西，对于我这种老兵也是一堆挑战。然后直接看看小结：发现左耳朵耗子眼里的入门级别就是一个“全栈程序员”，这已经比很多工作5，6年的程序员要强很多了，但他说这是一两年应该掌握的。。。
+转念一想是一两年的内容，我想现在hold住，就太高看自己了。按部就班的去做吧。
+感觉我现在要走的就是这一步，不知道要不要看后面的？
+感觉还是要看，先通盘看一遍，知道自己缺什么，带着问题学习会更好。
+
+要准备的书单：
+> 编程技巧: 代码大全
+> 编程语言: Java核心技术(卷1)、Spring Boot 实战
+> 操作系统: 鸟哥的Linux私房菜
+> 网络协议: [HTTP 的文档](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)
+> 数据库:   Mysql 必知必会
+> 前端方向: [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
+> 字符编码: [关于字符编码，你所需要知道的](http://www.imkevinyang.com/2010/06/%E5%85%B3%E4%BA%8E%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%EF%BC%8C%E4%BD%A0%E6%89%80%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84.html)  [Awesome-Unicode](https://github.com/jagracey/Awesome-Unicode)  [awesome-codepoints](https://github.com/Codepoints/awesome-codepoints)
+> IDE: vs code
+> 版本管理工具: Pro Git 第二版
+> 前端调试: [超完整的Chrome浏览器客户端调试大全](http://www.igeekbar.com/igeekbar/post/156.htm)
+> 数据库设计工具: [Mysql WorkBench](https://dev.mysql.com/doc/refman/5.7/en/)
+
+
